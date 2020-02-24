@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	stages{
-		stage ('Build'){
+		stage ('Upload to AWS'){
 			steps{
 				bat 'echo "Hellow World"'
 				bat '''
