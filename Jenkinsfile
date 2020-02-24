@@ -6,7 +6,6 @@ pipeline{
 				bat 'echo "Hellow World"'
 				bat '''
 					echo "Multiline shell "steps works too"
-					ls -lah
 				'''
 			}
 		}
